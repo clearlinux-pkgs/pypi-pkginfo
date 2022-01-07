@@ -18,11 +18,11 @@ BuildRequires : buildreq-distutils3
 Provides: pkginfo
 Provides: pkginfo-python
 Provides: pkginfo-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ==================
