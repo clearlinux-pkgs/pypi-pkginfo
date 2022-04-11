@@ -4,7 +4,7 @@
 #
 Name     : pypi-pkginfo
 Version  : 1.8.2
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/54/6a/42056522e1d79fa9768712782f37365ef786d905e4efeed6db44cad1803b/pkginfo-1.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/54/6a/42056522e1d79fa9768712782f37365ef786d905e4efeed6db44cad1803b/pkginfo-1.8.2.tar.gz
 Summary  : Query metadatdata from sdists / bdists / installed packages.
@@ -15,14 +15,11 @@ Requires: pypi-pkginfo-license = %{version}-%{release}
 Requires: pypi-pkginfo-python = %{version}-%{release}
 Requires: pypi-pkginfo-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: pkginfo
-Provides: pkginfo-python
-Provides: pkginfo-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ==================
@@ -79,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641469002
+export SOURCE_DATE_EPOCH=1649698359
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
