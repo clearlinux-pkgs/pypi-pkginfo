@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pkginfo
-URL = https://files.pythonhosted.org/packages/2f/72/347ec5be4adc85c182ed2823d8d1c7b51e13b9a6b0c1aae59582eca652df/pkginfo-1.10.0.tar.gz
+URL = https://files.pythonhosted.org/packages/38/2f/d58ff330b949614abff6a2e583b1401122dbe0b8786530af86e9fa79c5a5/pkginfo-1.11.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

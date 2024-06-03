@@ -1,6 +1,20 @@
 ``pkginfo`` Changelog
 =====================
 
+1.11.0 (2024-05-31)
+-------------------
+
+- Add support for Python 3.13.
+
+- Drop support for Python 3.7.
+
+- Emit warnings for distributions parsed with unknown metadata versions,
+  or metadata versions newer than highest supported version.
+  LP #2058697.
+
+- Improve exception message when failing to find a valid 'PKG-INFO' file
+  within an 'sdist' archive.  LP #2064652.
+
 1.10.0 (2024-03-03)
 -------------------
 
