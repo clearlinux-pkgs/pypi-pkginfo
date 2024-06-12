@@ -6,10 +6,10 @@
 # autospec commit: fbcebd0
 #
 Name     : pypi-pkginfo
-Version  : 1.11.0
-Release  : 31
-URL      : https://files.pythonhosted.org/packages/38/2f/d58ff330b949614abff6a2e583b1401122dbe0b8786530af86e9fa79c5a5/pkginfo-1.11.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/38/2f/d58ff330b949614abff6a2e583b1401122dbe0b8786530af86e9fa79c5a5/pkginfo-1.11.0.tar.gz
+Version  : 1.11.1
+Release  : 32
+URL      : https://files.pythonhosted.org/packages/4f/a1/f00755330cb34bc19b1ba744b9880c51a9b1ed8526039354736d5f4dfb0d/pkginfo-1.11.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/4f/a1/f00755330cb34bc19b1ba744b9880c51a9b1ed8526039354736d5f4dfb0d/pkginfo-1.11.1.tar.gz
 Summary  : Query metadata from sdists / bdists / installed packages.
 Group    : Development/Tools
 License  : MIT
@@ -73,10 +73,10 @@ python3 components for the pypi-pkginfo package.
 
 
 %prep
-%setup -q -n pkginfo-1.11.0
-cd %{_builddir}/pkginfo-1.11.0
+%setup -q -n pkginfo-1.11.1
+cd %{_builddir}/pkginfo-1.11.1
 pushd ..
-cp -a pkginfo-1.11.0 buildavx2
+cp -a pkginfo-1.11.1 buildavx2
 popd
 
 %build
@@ -84,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1717432837
+export SOURCE_DATE_EPOCH=1718229763
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
