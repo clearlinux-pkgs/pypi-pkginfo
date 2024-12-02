@@ -1,6 +1,21 @@
 ``pkginfo`` Changelog
 =====================
 
+1.12.0 (2024-12-02)
+-------------------
+
+- Declare content type of long description explicitly as 'text/x-rst'.
+
+- Support 'metadata_version' == '2.4' (PEP 639).
+
+1.11.3 (2024-12-02)
+-------------------
+
+- Add dependency ordering of tox environments FBO running tests in parallel.
+
+- Fix tests broken by bump of 'metadata_version' in 'wheels' >= '0.44.0'.
+  LP #2090840.
+
 1.11.2 (2024-10-10)
 -------------------
 
