@@ -7,7 +7,7 @@
 #
 Name     : pypi-pkginfo
 Version  : 1.12.0
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/c9/a5/fa2432da887652e3a0c07661ebe4aabe7f4692936c742da489178acd34de/pkginfo-1.12.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c9/a5/fa2432da887652e3a0c07661ebe4aabe7f4692936c742da489178acd34de/pkginfo-1.12.0.tar.gz
 Summary  : Query metadata from sdists / bdists / installed packages.
