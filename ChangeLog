@@ -1,6 +1,25 @@
 ``pkginfo`` Changelog
 =====================
 
+1.12.1.2 (2025-02-19)
+---------------------
+
+- Fix *another* packaging error (more missing testcase data!).  LP #2098833
+
+1.12.1.1 (2025-02-18)
+---------------------
+
+- Fix packaging error which prevents running tests from the released
+  sdist.
+
+1.12.1 (2025-02-18)
+-------------------
+
+- Disuse the metadata of the installed 'pkginfo' package for testing:
+  during creation of the various 'tox' environments, different versions of
+  'setuptools' will overwrite that file with different metadata (version,
+  'Dynamic' headers, etc).  LP #2098742
+
 1.12.0 (2024-12-02)
 -------------------
 
